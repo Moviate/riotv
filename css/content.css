@@ -1,0 +1,31 @@
+.content {
+    width: 760px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 10px auto 0px auto;
+}
+
+.content img {
+    width: 170px;
+    height: 255px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    padding: 5px;
+    transition: border ease-out 0.5s;
+}
+
+.content img:hover {
+    border: 3px solid rgb(135, 121, 149);
+}
+
+@media only screen and (max-width:900px) {
+    .content {
+        width: 100%;
+    }
+
+    .content img {
+        width: calc(50vw - 22px);
+        height: auto;
+    }
+}
