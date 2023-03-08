@@ -19,7 +19,7 @@
     border: 3px solid rgb(135, 121, 149);
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:810px) {
     .content {
         width: 100%;
     }
@@ -27,5 +27,8 @@
     .content img {
         width: calc(50vw - 22px);
         height: auto;
+        transition: border ease-out 0.1s;
     }
+    
+
 }
