@@ -25,7 +25,7 @@
     }
 
     .content img {
-        width: calc(50vw - 22px);
+        width: calc(50vw - 19px);
         height: auto;
         transition: border ease-out 0.1s;
     }

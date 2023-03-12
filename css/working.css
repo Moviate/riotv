@@ -1,0 +1,11 @@
+.workinimg {
+    width: 300px;
+    margin: auto;
+    display: block;
+    image-rendering: pixelated;
+
+}
+
+.workintitle{
+    text-align: center;
+}
