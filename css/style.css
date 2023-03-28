@@ -23,6 +23,11 @@ body {
     background-position: center;
 }
 
+.adcontainer{
+    margin:auto;
+    display:block;
+    {
+
 .menu {
     height: 80px;
     background-color: rgb(246 246 246 / 7%);
